@@ -1,0 +1,17 @@
+Realize as seguintes tarefas para um array chamado table:
+a) Declare e crie o array como um array de inteiros que tem três linhas e três colunas. Suponha que a constante ARRAY_SIZE foi declarada como 3.
+
+Resposta: int[][] table = new int[ARRAY_SIZE][ARRAY_SIZE];
+
+b) Quantos elementos o array contém?
+
+Resposta: O array possue nove elementos.
+
+c) Utilize uma instrução for para inicializar cada elemento do array com a soma de seus índices. Suponha que as variáveis inteiras x e y sejam declaradas como variáveis de controle.
+
+Resposta: 
+for(int x = 0; x < ARRAY_SIZE; x++){
+  for(int y = 0; y < ARRAY_SIZE; y++){
+    table[x][y] = x + y;
+  }
+}
