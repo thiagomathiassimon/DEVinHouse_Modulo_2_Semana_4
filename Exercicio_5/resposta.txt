@@ -1,0 +1,18 @@
+Responda às seguintes questões sobre Exceções:
+a) Se nenhuma exceção é lançada em um bloco try, onde o controle prossegue quando o bloco try completa a execução?
+
+Resposta: O(s) bloco(s) catch são pulados e, caso haja um bloco finally,
+ a continuação da execução dar-se-á por ele, do contrário, apenas continuará o projeto.
+
+b) O que acontece quando um bloco catch lança uma Exception?
+
+Resposta: Havendo um bloco finally, a execução continuar-se-á por ele, posterioremente, caso haja um bloco catch
+que espera essa execeção ou outro bloco try, passará por ele.
+
+c) O que a instrução throw referênciaDaExceção faz em um bloco catch?
+
+Resposta: A instrução 'throw' relança a execeção para processamento por tratamento de execeção, depois de passar pelo bloco finally.
+
+d) O que acontece com uma referência local em um bloco try quando esse bloco lança uma Exception?
+
+Resposta: A referência deixa o escopo do bloco try-catch. Caso o objeto torne-se inacessível, a mesma pode passar pela 'coleta de lixo'.
