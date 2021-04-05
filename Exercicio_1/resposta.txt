@@ -5,7 +5,7 @@ Resposta: int[][] table = new int[ARRAY_SIZE][ARRAY_SIZE];
 
 b) Quantos elementos o array contém?
 
-Resposta: O array possue nove elementos.
+Resposta: O array possui nove elementos.
 
 c) Utilize uma instrução for para inicializar cada elemento do array com a soma de seus índices. Suponha que as variáveis inteiras x e y sejam declaradas como variáveis de controle.
 
